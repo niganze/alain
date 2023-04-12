@@ -1,0 +1,60 @@
+
+.ContactForg {
+  background-color: #f7f7f7;
+  padding: 70px ;
+  text-align: center;
+}
+
+.ContactForg h5 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.form_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 30px;
+}
+
+.form {
+  flex-basis: 45%;
+}
+
+.mesasge {
+  flex-basis: 50%;
+}
+
+label {
+  display: flex;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #5f98b3;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #0062cc;
+}
